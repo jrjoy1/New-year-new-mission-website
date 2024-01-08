@@ -7,9 +7,7 @@
 }
 
 .banner-1st-line {
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
+    
     font-size: 32px;
     font-weight: 400;
 
@@ -17,9 +15,7 @@
 
 .banner-2nd-line,
 .banner-3rd-line {
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
+    
     font-size: 72px;
     font-weight: 900;
 
@@ -70,4 +66,16 @@
     justify-content: center;
     width: 800px;
     height: 500px;
+}
+
+.header1 {
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+
+}
+.banner-content1{
+    color: #FFF;
+font-family: Merriweather;
 }
