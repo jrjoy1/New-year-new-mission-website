@@ -1,0 +1,35 @@
+.banner-content {
+
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #FFF;
+}
+
+.banner-1st-line {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.banner-2nd-line,
+.banner-3rd-line {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.header {
+    background-image: url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+}
