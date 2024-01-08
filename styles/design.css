@@ -33,3 +33,41 @@
     height: 600px;
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
 }
+
+.discount {
+    text-align: center;
+}
+
+.discount-offer {
+    color: #F00;
+
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.discount-session {
+    color: #F00;
+
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.discount-categories {
+    color: #070211;
+
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.new-year-img {
+    fill: lightgray 50% / cover no-repeat;
+    justify-content: center;
+    width: 800px;
+    height: 500px;
+}
