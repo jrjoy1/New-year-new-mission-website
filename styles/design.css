@@ -143,7 +143,7 @@
 
 .message {
     color: #F00;
-    text-align: center;
+
 }
 
 .button-secondary {
@@ -158,4 +158,139 @@
     background-color: #F00;
     border-radius: 8px;
     gap: 10px;
+}
+
+/* offer-section-style */
+.offer-section {
+    display: flex;
+}
+
+.new-offer {
+    margin-left: 40px;
+}
+
+.new-offer-ellipse {
+    margin-left: 120px;
+}
+
+.offer-passage {
+    width: 300px;
+}
+
+.offer-passage-two {
+    margin-left: 120px;
+}
+
+.offer-passage-three {
+    width: 200px;
+}
+
+.header2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.small-title {
+    color: #070211;
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.big-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.header2-description {
+    color: rgba(7, 2, 17, 0.60);
+    width: 600px;
+    padding-left: 370px;
+    /* font-family: Inter; */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* fifty persent discount image section */
+.fifty-persent-discount-images {
+    background-image: url(../resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.image1 {
+    margin-left: 903px;
+    margin-bottom: 225px;
+    width: 429px;
+    height: 433px;
+    flex-shrink: 0;
+    border-radius: 16px 16px 0px 0px;
+    background: url(../resources/Rectangle\ 1.png), lightgray -59.98px 0px / 151.553% 100% no-repeat;
+}
+
+.image2 {
+    margin-left: 820px;
+    margin-top: -900px;
+    width: 500px;
+    height: 206.841px;
+    width: 220.048px;
+    height: 220.048px;
+    transform: rotate(-14.212deg);
+}
+
+.product-header,
+.product-container {
+    margin-left: 40px;
+}
+
+.product-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.product {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 0px -35.755px / 100% 142.115% no-repeat;
+}
+
+.subscribe-container {
+    text-align: center;
+    background-color: bisque;
+    margin-top: 100px;
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 150px;
+}
+
+.subscribe-newsletter {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.subscribe-passage {
+    color: rgba(7, 2, 17, 0.60);
+    width: 890px;
+    margin-left: 210px;
+    margin-top: 20px;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 20px;
+    font-weight: 400;
+}
+.button-subscribe{
+    margin-top: 45px;
+    background-color: #F00;
+    border-radius: 50px;
 }
